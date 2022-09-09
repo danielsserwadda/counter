@@ -11,7 +11,7 @@ const Counter = () => {
     }
 
     const reset = () => {
-        setCount()
+        setCount( count => count -= count )
     }
 
   return (
